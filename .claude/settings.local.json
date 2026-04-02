@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(npm list:*)",
+      "Bash(npm install:*)",
+      "Bash(uv pip:*)",
+      "Bash(pip list:*)",
+      "Bash(python:*)",
+      "Bash(cognee-cli --version)",
+      "Bash(netstat -ano)",
+      "Bash(findstr :3000)",
+      "Bash(findstr :8000)",
+      "Bash(cognee-cli -ui)",
+      "Bash(findstr \":3000 :8000\")",
+      "Bash(taskkill /F /PID 38164)",
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(Stop-Process -Name \"node\" -Force -ErrorAction SilentlyContinue)",
+      "Bash(rm:*)",
+      "Bash(kill 38164)",
+      "Bash(findstr \":3000 \")",
+      "Bash(taskkill:*)",
+      "Bash(findstr \":8000 \")",
+      "Bash(findstr \"LISTENING\")",
+      "Bash(.venv/Scripts/cognee-cli:*)",
+      "Bash(curl -s http://localhost:3000 -o nul)",
+      "Bash(curl -s http://localhost:8000/health -o nul)",
+      "Bash(curl -I http://localhost:3000)",
+      "Bash(tasklist)",
+      "Bash(findstr node:*)"
+    ]
+  }
+}
